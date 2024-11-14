@@ -1,15 +1,14 @@
-# models/database.py
-
+from decouple import config
 import mysql.connector
 from mysql.connector import Error
 
 def get_connection():
     try:
         conn = mysql.connector.connect(
-            host='sh-pro110.hostgator.com.br',
-            database='ecproj16_licitacoes',
-            user='ecproj16_pythonScript',
-            password='.[3epcnk=E**'
+            host=config('DB_HOST'),
+            database=config('DB_NAME'),
+            user=config('DB_USER'),
+            password=config('DB_PASSWORD')
         )
         if conn.is_connected():
             print("Conectado ao MySQL!")

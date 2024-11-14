@@ -35,5 +35,13 @@ No arquivo settings.py do Scrapy, defina o pipeline de exportação para usar a 
 
 
 ### requiments
+
+bash 
+python -m venv venv
+.\venv\Scripts\activate
 pip install -r requirements.txt
+
+caso instale uma depedencia nova 
+pip freeze > requirements.txt
+
 ter .env no models, com as os dados de acesso do DB
