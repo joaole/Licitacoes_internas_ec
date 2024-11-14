@@ -3,6 +3,7 @@
 Licitacoes_internar_ec/
 ├──licitacao_scraper
 │   ├── models/
+|   |    ├──.env                 # Possui dados de conexão com DB
 │   │   ├── database.py          # Conexão e configuração do banco SQL
 │   │   └── data_models.py       # Classes que representam os dados
 │   ├── spiders/
