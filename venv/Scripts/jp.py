@@ -1,4 +1,4 @@
-#!C:\Users\ecpro_etbod0y\Licitacoes_internas_ec\venv\Scripts\python.exe
+#!C:\Users\joaol\licitacoes_ec\Licitacoes_internas_ec\venv\Scripts\python.exe
 
 import sys
 import json
