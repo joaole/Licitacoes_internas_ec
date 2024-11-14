@@ -36,3 +36,4 @@ No arquivo settings.py do Scrapy, defina o pipeline de exportação para usar a 
 
 ### requiments
 pip install -r requirements.txt
+ter .env no models, com as os dados de acesso do DB
