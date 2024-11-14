@@ -1,4 +1,5 @@
 ## Estruturação do Projeto
+ 
 
 Licitacoes_internar_ec/
 ├──licitacao_scraper
@@ -34,4 +35,4 @@ No arquivo settings.py do Scrapy, defina o pipeline de exportação para usar a 
 
 
 ### requiments
-scrapy, mysql.connection, selenium, webdriver-manger
+pip install -r requirements.txt
